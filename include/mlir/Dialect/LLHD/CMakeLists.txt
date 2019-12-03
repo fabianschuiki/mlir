@@ -1,0 +1,5 @@
+set(LLVM_TARGET_DEFINITIONS LLHD.td)
+mlir_tablegen(LLHD.h.inc -gen-op-decls)
+mlir_tablegen(LLHD.cpp.inc -gen-op-defs)
+mlir_tablegen(LLHD.md -gen-op-doc)
+add_public_tablegen_target(MLIRLLHDIncGen)

@@ -30,6 +30,7 @@ set(LIBS
   MLIRGPUtoROCDLTransforms
   MLIRGPUtoSPIRVTransforms
   MLIRLinalg
+  MLIRLLHD
   MLIRLLVMIR
   MLIRLoopOps
   MLIRNVVMIR
